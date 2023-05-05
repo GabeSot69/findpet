@@ -1,3 +1,11 @@
 body{
     margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cabecalho{
+    background-color: #143157;
+    width: 100vw;
+    height: 20vh;
 }
