@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anunciar Desaparecimento</title>
+    <link rel="stylesheet" href="./Styles/pa_style.css">
+</head>
+<body>
+    <div class="fundo">
+        <header>
+            <div class="cabecalho">
+                <h1>
+                    Anuncie seu pet desaparecido           
+                </h1>
+            </div>
+        </header>
+        <form action="./respostas.txt" method="post">
+            <div class="quest">
+                <label for="especie">Informe a espécie e se o seu pet é macho ou fêmea</label>
+                <input type="text" id="especie" name="especie">
+                <label for="nome_pet">Como ele se chama?</label>
+                <input type="text" id="nome_pet" name="nome_pet">
+                <label for="raca_pet">Informe a raça do seu pet</label>
+                <input type="text" id="raca_pet" name="raca_pet">
+                <label for="descricao_pet">Dê uma descrição do seu pet para identificá-lo melhor</label>
+                <input type="text" id="descricao_pet" name="descricao_pet">
+                <label for="ultimo_local">Onde o seu pet foi visto por último?</label>
+                <input type="text" id="ultimo_local" name="ultimo_local">
+                <label for="num_contato">Forneça um número para contato</label>
+                <input type="text" id="num_contato" name="num_contato">
+                <div class="enviar-foto">
+                    <span>Forneça uma foto do seu pet para ajudar a identificá-lo</span>
+                    <label for="foto_pet" class="botao-enviar-foto">
+                        <img src="./Icons/baixar.png" alt="" srcset="">
+                    </label> 
+                    <input type="file" id="foto_pet" name="foto_pet" accept="image/png, image/jpeg, image/jpg">
+                </div>
+            </div>
+         <button type="submit">Anunciar</button>
+        </form>
+    </div>
+</body>
+</html>
