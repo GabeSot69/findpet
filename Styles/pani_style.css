@@ -39,7 +39,8 @@ body, html{
     display: flex;
     flex-direction: column;
     font-family: "Jost", sans-serif;
-    
+    background-color: #FFFDCE;
+    overflow: scroll;
 }
 
 header .cabecalho{
@@ -60,18 +61,44 @@ header .cabecalho{
 
 main{
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.pai{
-    background-color: #FFFDCE;
-    display: grid;
-    grid-template-columns: repeat(3, 0.8fr);
-    grid-template-rows: repeat(3, 3fr);
-    grid-column-gap: 50px;
-    grid-row-gap: 30px;
+.animais-1, .animais-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.cell1{
-    background-color: azure;
+.titulo{
+    margin-top: 20px;
+}
+
+
+
+img{
+    width: 200px;
+    height: 250px;
+}
+
+p{
+    font-weight: normal;
+    font-style: normal;
+    
+    font-size: 16px;
+    
+}
+.cell{
+    margin-right: 30px;
+    width: 100%;
+}
+
+.cell >*{
+    text-align: center; 
+    width: -moz-fit-content;
+    width: fit-content;
 }
 
 .cell2{
