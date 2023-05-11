@@ -1,27 +1,27 @@
-@font-face {
+font-face {
     font-family: "Jost";
-    src: url("./Fonts/Jost/static/Jost-Regular.ttf");
+    src: url("../Fonts/Jost/static/Jost-Regular.ttf");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Jost";
-    src: url("./Fonts/Jost/static/Jost-Bold.ttf");
+    src: url("../Fonts/Jost/static/Jost-Bold.ttf");
     font-weight: bolder;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Jost";
-    src: url("./Fonts/Jost/static/Jost-SemiBoldItalic.ttf");
+    src: url("../Fonts/Jost/static/Jost-SemiBoldItalic.ttf");
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Jost";
-    src: url("./Fonts/Jost/static/Jost-BoldItalic.ttf");
+    src: url("../Fonts/Jost/static/Jost-BoldItalic.ttf");
     font-weight: bolder;
     font-style: italic;
 }
