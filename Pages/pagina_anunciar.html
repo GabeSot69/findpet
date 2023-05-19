@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anunciar Desaparecimento</title>
     <link rel="stylesheet" href="../Styles/pa_style.css">
+    <script src="../Scripts/salvar_info_animal.js" defer></script>
 </head>
 <body>
     <div class="fundo">
@@ -16,7 +17,7 @@
                 </h1>
             </div>
         </header>
-        <form action="./respostas.txt" method="post">
+        <form id="form-animais">
             <div class="quest">
                 <label for="especie">Informe a espécie e se o seu pet é macho ou fêmea</label>
                 <input type="text" id="especie" name="especie">

@@ -71,7 +71,6 @@ header .cabecalho{
     font-size: 25px;
 }
 
-
 .barra-nav a{
     margin: 0 25px;
     text-decoration: none;
@@ -93,18 +92,20 @@ main .apresentacao{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-weight: bold;
-    font-style: italic;
+    
 }
 
 .titulo-apresentacao{
     font-size: 48px;
     margin-top: 24px;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .texto-apresentacao{
     font-size: 24px;
-
+    font-weight: bold;
+    font-style: italic;
 }
 
 .botoes{
@@ -115,8 +116,12 @@ main .apresentacao{
 
 }
 
-.botoes button{
-    font-family: "Jost", sans-serif;
+a.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: initial;
     font-weight: normal;
     font-style: normal;
     font-size: 32px;
@@ -125,5 +130,6 @@ main .apresentacao{
     width: 374px;
     height: 141px;
     border-radius: 40px;
+    
 
 }
